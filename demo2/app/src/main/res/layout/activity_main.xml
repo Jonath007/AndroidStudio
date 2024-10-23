@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:gravity="center"
+    android:hapticFeedbackEnabled="false"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+
+        android:ems="10"
+        android:hint="Enter your Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+
+        android:ems="10"
+        android:hint="Enter your RegNo"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:hapticFeedbackEnabled="true"
+        android:text="Button"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="TextView" />
+
+</LinearLayout>
+
+
+

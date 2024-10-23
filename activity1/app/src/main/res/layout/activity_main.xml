@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Emile Jonath B"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="48dp"
+        tools:ignore="MissingConstraints" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:rowCount="2" android:columnCount="2"
+        android:padding="75dp"
+        android:layout_marginTop="100dp">
+
+        <ImageButton
+            android:id="@+id/edu"
+            android:layout_width="128dp"
+            android:layout_height="126dp"
+            app:srcCompat="@drawable/img"
+            android:scaleType="fitCenter"
+            android:backgroundTint="@color/white"/>
+
+        <ImageButton
+            android:id="@+id/project"
+            android:layout_width="128dp"
+            android:layout_height="126dp"
+            app:srcCompat="@drawable/img_4"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitCenter"
+            android:backgroundTint="@color/white"/>
+
+        <ImageButton
+            android:id="@+id/skill"
+            android:layout_width="128dp"
+            android:layout_height="126dp"
+            app:srcCompat="@drawable/img_3"
+            android:scaleType="fitCenter"
+            android:backgroundTint="@color/white"/>
+
+        <ImageButton
+            android:id="@+id/hobb"
+            android:layout_width="128dp"
+            android:layout_height="126dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/img_1"
+            android:scaleType="fitCenter"
+            android:backgroundTint="@color/white"/>
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
